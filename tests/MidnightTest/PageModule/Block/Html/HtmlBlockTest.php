@@ -22,4 +22,10 @@ class HtmlBlockTest extends PHPUnit_Framework_TestCase
         $block->setParent($page);
         $this->assertEquals($page, $block->getParent());
     }
+
+    public function testNewBlockHasNoId()
+    {
+        $block = new HtmlBlock();
+        $this->assertNull($block->getId());
+    }
 }

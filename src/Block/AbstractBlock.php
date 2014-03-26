@@ -5,9 +5,21 @@ namespace Midnight\PageModule\Block;
 abstract class AbstractBlock implements BlockInterface
 {
     /**
+     * @var string
+     */
+    private $id;
+    /**
      * @var BlockContainerInterface
      */
     private $parent;
+
+    /**
+     * @return string
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
 
     /**
      * @return BlockContainerInterface
