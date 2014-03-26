@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c70dac6492175c797fe12a1c3863650c",
+    "hash": "dac959fe179704051fa7a3c2d1751da2",
     "packages": [
         {
             "name": "zendframework/zend-eventmanager",

@@ -11,7 +11,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": "~5.4",
-        "zendframework/zend-mvc": "~2.3"
+        "zendframework/zend-mvc": "~2.2"
     },
     "require-dev": {
         "zendframework/zend-http": "~2.3",
