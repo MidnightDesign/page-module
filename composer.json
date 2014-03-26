@@ -14,8 +14,8 @@
         "zendframework/zend-mvc": "~2.2"
     },
     "require-dev": {
-        "zendframework/zend-http": "~2.3",
-        "zendframework/zend-view": "~2.3",
+        "zendframework/zend-http": "~2.2",
+        "zendframework/zend-view": "~2.2",
         "doctrine/mongodb-odm": "~1.0@dev"
     },
     "autoload": {
