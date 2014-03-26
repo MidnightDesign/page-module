@@ -41,11 +41,11 @@ class Page extends AbstractHelper
      */
     private function getBlockRenderer(BlockInterface $block)
     {
-        $class = get_class($block);
-        if (!isset($this->blockRenderers[$class])) {
-            throw new RendererNotFoundException();
+        foreach ($this->blockRenderers as $class => $renderer) {
+            if ($block instanceof $class) {
+                return $renderer;
+            }
         }
-        $renderer = $this->blockRenderers[$class];
-        return $renderer;
+        throw new RendererNotFoundException();
     }
 }
